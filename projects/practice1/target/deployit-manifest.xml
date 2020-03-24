@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<udm.DeploymentPackage version="1.0.0" application="DempApp">
+ <application />
+ <deployables>
+  <jee.War name="/vprofile-v1" file="/libs/vprofile-v1.war"/>
+ <dependencyResolution>LATEST</dependencyResolution>
+ <undeployDependencies>false</undeployDependencies>
+</udm.DeploymentPackage>
